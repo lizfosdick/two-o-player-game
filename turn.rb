@@ -10,11 +10,5 @@ class Turn
   end
 end
 
-#   if  @current == true
-# @new_question = Turn.new
-# puts "---NEW TURN---"
-# p "Player2: #{@new_question.question}"
-# @player1.current = true
-# @player2.current = false
 
 
