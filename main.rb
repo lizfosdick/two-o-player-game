@@ -16,6 +16,7 @@ class Game
       puts "It's #{@current.name}'s turn!"
       puts "#{@current.name}: #{@new_question.question}"
       answer = @new_question.answer
+      print ">"
       input = gets.chomp
           if input.to_i == answer
             puts "Correct! Well done. "
